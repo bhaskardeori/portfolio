@@ -1,0 +1,131 @@
+/*start NAVIGATION CSS Styles*/
+nav {
+    background: #14213d;
+}
+
+nav a {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 1.3rem;
+}
+
+nav a {
+    display: block;
+}
+
+nav a:hover {
+    background: #0081A7;
+}
+
+/* end NAVIGATION CSS Styles */
+
+
+
+#welcome-section {
+    height: 100vh;
+    background: #0081A7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-section h1 {
+    font-size: 3rem;
+}
+#welcome-section p {
+    font-size: 1.5rem;
+}
+
+
+
+#projects {
+    height: 100vh;
+    background: #023047;
+    color: white;
+}
+
+
+
+#projects h3 {
+    font-size: 2rem;
+    border-bottom: 0.2rem solid white;
+}
+
+#contact {
+    height: 100vh;
+    background: #0081A7;
+}
+
+
+
+@media (max-width: 991.98px) { 
+   
+
+
+
+}
+
+
+@media (max-width: 767.98px) { 
+    
+    #projects {
+        height: auto;
+    }
+    #navbar ul{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+    }
+
+    #welcome-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 0.8rem !important;
+    }
+
+    #welcome-section h1 {
+        font-size: 2rem;
+    }
+
+    #welcome-section p {
+        font-size: 0.8rem;
+    }
+
+    #orojects {
+        height: auto;
+    }
+
+    #projects h3 {
+        font-size: 1.5rem;
+        border-bottom: none;
+        text-align: center;
+    }
+    
+    .project-box {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+ }
+
+#projects a {
+    text-decoration: none;    
+}
+
+p.project-title {
+    background: #14213d;
+    padding: 0.7rem;
+}
+
+.project-title {
+     color: white !important;
+     font-size: 1rem;
+     text-align: center;
+ }
